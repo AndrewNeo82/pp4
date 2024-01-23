@@ -92,8 +92,9 @@ WSGI_APPLICATION = 'pp4.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get("postgres://hojdedfv:ECqArb7qN1KIakJRG3IvWwy_3L6eB9Tm@manny.db.elephantsql.com/hojdedfv"))
+   'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
+
 
 
 # Password validation
