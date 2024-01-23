@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'cloudinary_storage',
-    'pp4',
+    'booking',
 ]
 
 MIDDLEWARE = [
